@@ -184,4 +184,9 @@ footer a:hover {
     color: var(--cor1);
 }
 
-
+.voltar {
+    margin-left: 46%;
+    margin-bottom: 0,5%;
+    margin-top: 0,5%;
+    width: 8%;
+}
