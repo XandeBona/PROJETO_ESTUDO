@@ -77,6 +77,10 @@ nav a:hover {
     color: white;
 }
 
+div.principal {
+    text-align: center;
+}
+
 main {
     background-color: white;
     min-width: 280px;
@@ -119,51 +123,7 @@ main a:hover {
 }
 
 main img {
-    width: 100%;
-}
-
-main .pequena {
-    max-width: 460px;
-    display: block;
-    margin: auto;
-}
-
-main ul {
-    list-style-type: '\27A1\00A0';
-    list-style-position: inside;
-    columns: 2;
-    padding-top: 15px;
-    text-indent: 30px;
-    padding-bottom: 10px;
-}
-
-aside {
-    background-color: var(--cor0);
-    padding: 10px;
-    border-radius: 10px;
-}
-
-aside h2 {
-    background-color: var(--cor2);
-    font-family: var(--font-titulo);
-    color: white;
-    border-radius: 10px 10px 0px 0px;
-    padding: 10px;
-    margin: -10px -10px 0px -10px;
-}
-
-div.video {
-    margin-bottom: 30px;
-    padding-bottom: 50%;
-    position: relative;
-}
-
-div.video iframe {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
+    width: 125px;
 }
 
 footer {
@@ -181,11 +141,4 @@ footer a {
 
 footer a:hover {
     color: var(--cor1);
-}
-
-.voltar {
-    margin-left: 46%;
-    margin-bottom: 0,5%;
-    margin-top: 0,5%;
-    width: 8%;
 }
